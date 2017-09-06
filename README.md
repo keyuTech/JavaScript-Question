@@ -288,3 +288,34 @@ var str2 = friendlyDate('1483941245793') //4天前
 5. 写一个函数isValidUsername(str)，判断用户输入的是不是合法的用户名（长度6-20个字符，只能包括字母、数字、下划线）
 
 6. 什么是贪婪模式和非贪婪模式
+
+## 八、定时器、DOM
+1. 下面这段代码输出结果是? 为什么?
+```
+var a = 1;
+setTimeout(function(){
+    a = 2;
+    console.log(a);
+}, 0);
+var a ;
+console.log(a);
+a = 3;
+console.log(a);
+```
+
+2. 下面这段代码输出结果是? 为什么?
+```
+var flag = true;
+setTimeout(function(){
+    flag = false;
+},0)
+while(flag){}
+console.log(flag);
+```
+3. 实现一个节流函数
+
+4. 简单解释单线程、任务队列的概念
+
+5. 列出DOM 元素选取的 API
+
+6. 如果创建元素、如何添加元素
