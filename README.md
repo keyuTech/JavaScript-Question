@@ -320,6 +320,7 @@ console.log(flag);
 
 6. 如果创建元素、如何添加元素
 
+<<<<<<< HEAD
 ## 九、DOM操作
 1. 写一个函数，批量操作 css
 ```
@@ -333,7 +334,7 @@ css(document.body, {
 ```
 2. 如何获取DOM计算后的样式
 
-3. 实现![此效果](http://js.jirengu.com/nupom)
+3. 实现[此效果](http://js.jirengu.com/nupom)
 
 4. onclick与addEventListener的区别
 
@@ -379,3 +380,9 @@ css(document.body, {
 //你的代码
 </script>
 ```
+=======
+## 十、事件、登录注册、Tab切换
+1. 解释以下概念：事件传播机制、阻止传播、取消默认事件、事件代理
+
+2. 写一个Demo，演示事件传播的过程，演示组织传播的效果
+>>>>>>> 58e4b8c305bc8e6a2f6ac24afadbf045d34d6271
