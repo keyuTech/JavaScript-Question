@@ -319,3 +319,63 @@ console.log(flag);
 5. 列出DOM 元素选取的 API
 
 6. 如果创建元素、如何添加元素
+
+## 九、DOM操作
+1. 写一个函数，批量操作 css
+```
+function css(node, styleObj){
+//todo ..
+}
+css(document.body, {
+  'color': 'red',
+  'background-color': '#ccc'
+})
+```
+2. 如何获取DOM计算后的样式
+
+3. 实现![此效果](http://js.jirengu.com/nupom)
+
+4. onclick与addEventListener的区别
+
+5. 解释DOM2的传播机制
+
+6. 有如下代码，要求当点击每一个元素li时控制台展示该元素的内容
+```
+<ul class="ct">
+    <li>这里是</li>
+    <li>饥人谷</li>
+    <li>前端14班</li>
+</ul>
+<script>
+//todo ...
+</script>
+```
+7. 补全代码，要求：
+* 当点击按钮开头添加时在<li>这里是</li>元素前添加一个新元素，内容为用户输入的非空字符串；当点击结尾添加时在最后一个 li 元素后添加用户输入的非空字符串
+* 当点击每一个元素li时控制台展示该元素的文本内容
+```
+<ul class="ct">
+    <li>这里是</li>
+    <li>饥人谷</li>
+    <li>任务班</li>
+</ul>
+<input class="ipt-add-content" placeholder="添加内容"/>
+<button id="btn-add-start">开头添加</button>
+<button id="btn-add-end">结尾添加</button>
+<script>
+//你的代码
+</script>
+```
+
+8.  补全代码，要求：当鼠标放置在li元素上，会在img-preview里展示当前li元素的data-img对应的图片
+```
+<ul class="ct">
+    <li data-img="1.png">鼠标放置查看图片1</li>
+    <li data-img="2.png">鼠标放置查看图片2</li>
+    <li data-img="3.png">鼠标放置查看图片3</li>
+</ul>
+<div class="img-preview"></div>
+<script>
+//你的代码
+</script>
+```
